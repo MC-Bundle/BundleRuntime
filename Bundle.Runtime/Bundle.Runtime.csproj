@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 	<LangVersion>10.0</LangVersion>
 	<ImplicitUsings>false</ImplicitUsings>
-	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-	<PackageVersion>0.2.1-alpha</PackageVersion>
-	<VersionPrefix>0.2.1-alpha</VersionPrefix>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageVersion>0.2.2-alpha</PackageVersion>
+	<VersionPrefix>0.2.2-alpha</VersionPrefix>
 	<Authors>D5</Authors>
 	<Company>Bundle</Company>
 	<Description>Core library for Bundle Client Engine and Bundle Server Engine</Description>
@@ -19,5 +19,7 @@
 	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
+	<ItemGroup>
+		<None Include="logo.png" Pack="true" PackagePath="/"/>
+	</ItemGroup>
 </Project>
